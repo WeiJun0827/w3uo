@@ -1,0 +1,26 @@
+{
+  "name": "web3storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --loader ts-node/esm index.ts"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ipld/car": "^5.2.4",
+    "@ipld/dag-ucan": "^3.4.0",
+    "@ucanto/core": "^9.0.1",
+    "@ucanto/principal": "^9.0.0",
+    "@web3-storage/w3up-client": "^11.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
